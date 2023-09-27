@@ -1,0 +1,53 @@
+.container{
+    padding: 10px;
+    margin: 0;
+    background-color: rgb(226, 228, 251);
+    min-height: 100vh;
+}
+.app-title{
+    text-align: center;
+    background-color: darkblue;
+    color:white;
+    width:400px;
+    padding:10px 50px;
+    display: block;
+    margin:auto;
+    border-radius: 20px;
+}
+.todo-flex-cont{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.task-input{
+    display: block;
+    width: 300px;
+    font: size 19px; 
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+.btn-add-task{
+    background-color: darkblue;
+    color: white;
+    border-radius: 30px;
+    padding: 10px 5px;
+    border: none;
+    margin: 20px;
+    width: 130px;
+    font-family: sans-serif;
+}
+.d-flex-btn{
+    display: flex;
+    justify-content: space-around;
+
+}
+.task-container{
+    height: 400px;
+    overflow-y: scroll;
+}
+
+.task-container::-webkit-scrollbar{
+    width: 5px;
+}
