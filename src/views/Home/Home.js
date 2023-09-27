@@ -123,7 +123,7 @@ const Home = () => {
 
     return (
         <div className='container'>
-            <h1 className='app-title'> 📓Task Tracker 🎯</h1>
+            <h1 className='app-title'> 📓Task Buddy 🎯</h1>
             <div className='todo-flex-cont'>
                 <div>
                     <h2 className='text-center'> Show List</h2>
